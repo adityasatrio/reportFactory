@@ -8,8 +8,11 @@ reportFactory
 syntax to use the code
 =======================
 
+```java
 ReportType reportType = ReportFactory.getReportExtension("pdf");
 reportType.generateMasterSubReport(response, dataMap, listCards);
-
+```
+```java
 ReportType reportType = ReportFactory.getReportExtension("pdf");
 reportType.generateSingleReport(response, dataMap, listCards);
+```
